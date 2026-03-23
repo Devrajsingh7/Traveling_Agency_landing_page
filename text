@@ -1,0 +1,62 @@
+  <header> 
+<div id="pic1">
+<h1 id="head">Hawa Mahal ✨🏰</h1>
+
+<figure>
+  <img  src="https://almalasers.co.in/wp-content/uploads/sites/9/2024/11/jaipur-thumb.jpg" width="500" alt="Hawa Mahal">
+   
+</figure>
+</div>
+</header>
+ 
+
+<p>
+Hawa Mahal, built in 1799, is one of Jaipur’s most iconic landmarks. Famous for its unique façade with 953 small windows, it allowed royal ladies to observe street festivals without being seen.
+</p>
+
+<h3>Must See:</h3>
+<ul>
+  <li>953 windows (Jharokhas)</li>
+  <li>Beautiful pink sandstone façade</li>
+  <li>View of City Palace and Jaipur streets</li>
+</ul>
+
+<p><strong>Fun Fact:</strong> Hawa Mahal was designed to allow air circulation, keeping it cool in summers.</p>
+
+<h3>Visitor Info:</h3>
+<ul>
+  <li>Entry fee: ₹50 for Indian visitors, ₹200 for foreigners</li>
+  <li>Timings: 9:00 AM – 4:30 PM</li>
+  <li>Nearby cafes: Try local Rajasthani snacks outside the palace</li>
+</ul>
+
+<blockquote>"Hawa Mahal is a marvel of Rajput architecture, designed to let royal women observe street life unseen."</blockquote>
+
+<p><a href="index.html">← Back to Home</a></p>
+
+</body>
+</html>
+
+
+<!-- css -->
+ *{
+    padding: 0px;
+    margin: 0px;   
+    background-color: rgb(254, 254, 226);
+ 
+     
+}
+
+#head {
+    text-align: center;
+    color: azure;
+    position: absolute;
+
+}
+#pic1 { 
+    height: 350px;
+    justify-content: center;
+    background-image:url(https://almalasers.co.in/wp-content/uploads/sites/9/2024/11/jaipur-thumb.jpg);
+    background-size:cover;
+
+}

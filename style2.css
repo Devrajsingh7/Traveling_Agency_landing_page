@@ -1,0 +1,37 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(222, 214, 141);
+    color: black;
+ }
+
+ .hero-image{
+    background-image: url(hawa-mahal-the-temple-of-the-winds-jaipur-rajasthan-india-hawa-mahal-\ photo.jpg);
+    background-size: cover;
+    height: 1100px; 
+    width: 100%;
+
+}
+
+.herosection {
+ display: flex;
+}
+
+.herosection-text  {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+    font-size: 3.4rem;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.76);
+  
+}
+.ht2{
+    margin: 15px;
+    font-size: 4rem;
+    
+}

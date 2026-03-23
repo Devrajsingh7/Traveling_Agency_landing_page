@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #E75480;
+    background-color: #FFE8EE;
+    border: border-box;
+}
+
+.div-logos{
+    display: flex;
+}
+#nav-logo{
+    background-image: url(jaipur-logo.webp);
+    height: 60px;
+    width: 115px;
+    background-size: cover;
+    background-color: aliceblue;
+    display: flex;
+ }
+#nav-logo2{
+    background-image: url(pink_city_tours_logo.png);
+    height: 60px;
+    width: 280px;
+    background-size: cover;
+    background-color: aliceblue;
+    display: flex;
+ }
+
+
+#navbar {
+    height: 60px;
+    background-color: #E75480 ;
+    display: flex;
+    justify-content: space-between;
+   
+ }   
+ 
+.navbar2{
+    display: flex;
+    align-items: center;
+    background-color: #E75480 ;
+    justify-content: end;
+    justify-content: space-around;
+    width: 500px;
+
+} 
+  
+.nboption{
+    color: white;
+    font-weight: 900;
+    font-size:1.3rem;
+    text-decoration: none;
+    background-color: #E75480;
+    /* border: 1.4px solid transparent  ; */
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.nboption:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  /* border: 1.4px solid black ; */
+  transition: 0.2s ease;
+}
+
+.nboption:active {
+  background: rgba(255, 255, 255, 0.25);
+}  
+/* nav bar completed */
+/* herosectionstarted */
+ 
+.slidein-header{
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+    align-content: center;
+    margin: 50px;
+    background-color: transparent;
+    
+
+}
+.slidein-heading{
+    font-size: 4.5rem;
+    background-color: transparent;
+
+}
+.slidein-para{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.514);
+    background-color: transparent;
+}
+ 
+ .slidein-button{
+    margin-top: 25px;
+    background-color: #E75480;
+    color: #FFE8EE;
+    height: 55px;
+    width: 200px;
+    border-radius: 15px;
+    border: 0px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.slidein-button:hover{
+     box-shadow: 0 16px 40px rgba(231, 84, 128, 0.4);   
+      transform: translateY(-4px);  
+      background:  #d63c6ff6;
+    
+    
+}
+.slidein-button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(231, 84, 128, 0.3);
+}
+ 
+
+  @keyframes slideScaleIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px) scale(.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.slidein-header {
+    animation: slideScaleIn 1s ease;
+} 
+ 
+
+/* Ab hai section1 ki baari  */
+
+
+/* herosection */
+
+.herosection-image{
+    background-image: url(pink_city_tours_main_page_bg\ \(6\).png);
+    height: 650px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+ 
+.section-whyjaipur{
+    background-color: white;
+    height: 570px;
+    padding-top: 40px;
+    width: 100%;
+ 
+}
+.section-whyjaipurcontent{
+    background-color: transparent;
+       
+}
+
+
+.swj-heading1{
+    font-size: 3.5rem;
+    background-color: white;
+    text-align: center;
+}
+.swj-heading2{
+    font-size: 3rem;
+    background-color: white;
+    text-align: center;
+}
+.section-paragrapghs{
+      background-color: white;
+    }
+ 
+ .sp{
+    color:rgba(0, 0, 0, 0.514);
+    margin-top: 20px;
+    font-size: 1.3rem;
+    background-color: white;
+    text-align: center;
+    padding: 0px 80px 30px 80px;
+ }
+
+ .section-packages{
+    height: 570px;
+    width: 100%;
+    background-color: #FFE8EE;
+    padding :0px 32px;
+
+ }
+
+ .packages-heading {
+    margin-top: 40px;
+    font-size: 3.5rem;
+    text-align: center;
+
+ }
+ .packages-para{
+    font-size: 1.3rem;
+    color:rgba(0, 0, 0, 0.514);
+    text-align: center;
+
+    
+   
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    text-align: center;
+}
+.description {
+    text-align: center;
+      
+}
+.image {
+    text-align:center ;
+
+}
+.link {
+    text-decoration:none;
+    list-style-type: none;
+}
+.list {
+    text-align:center;
+    list-style-type: none;
+}
+
+
