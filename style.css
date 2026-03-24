@@ -205,13 +205,34 @@
     font-size: 1.3rem;
     color:rgba(0, 0, 0, 0.514);
     text-align: center;
+}
 
-    
-   
+ /* Package-grid */
+
+ .packages-container{
+    padding-top:30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px; 
+    row-gap: 20px; 
+
+       
 
  }
+ .packages-container div{
+    background-color: white;
+    height:400px;
+    width: 350px;
+    border: 1.4px solid goldenrod;
+    border-radius:5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 20px;
 
+ }
+  
 
+ 
 
 
 
