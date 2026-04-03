@@ -4,7 +4,7 @@
     text-decoration: none;
     color: #E75480;
     background-color: #FFE8EE;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .div-logos{
@@ -27,12 +27,15 @@
     display: flex;
  }
 
-
 #navbar {
     height: 60px;
     background-color: #E75480 ;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
    
  }   
  
@@ -116,10 +119,9 @@
 .slidein-button:hover{
      box-shadow: 0 16px 40px rgba(231, 84, 128, 0.4);   
       transform: translateY(-4px);  
-      background:  #d63c6ff6;
-    
-    
+      background:  #d63c6ff6;   
 }
+
 .slidein-button:active {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(231, 84, 128, 0.3);
