@@ -247,8 +247,11 @@
 color:#C9A961 ;
 font-weight: 900; 
 font-size: 1.6rem;
-display: inline-block;
-margin-left: 110px;
+margin-left: 67px;
+}
+.package1 h3{
+    background-color: transparent;
+    display: inline;
 }
   
 .package-duration{
@@ -282,7 +285,7 @@ margin-left: 110px;
     height: 2.5rem;
     border-radius: 7px;  
     border: 0px;
-    margin-top: 80px;   
+    margin-top: 40px;   
 
 }
 .packages-container button:hover{
@@ -293,6 +296,7 @@ margin-left: 110px;
       background:  #d63c6f;
       color: white;
 }
+
 
 
 /* TOP ATTRACTIONS PAGE  */
