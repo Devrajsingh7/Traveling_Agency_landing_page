@@ -212,15 +212,17 @@
     color:rgba(0, 0, 0, 0.514);
     text-align: center;
     width: 1200px;
+    padding-top: 20px;
 }
 
  /* Package-grid */
 
  .packages-container{
-    padding:30px 100px 30px 100px ;
+    padding:30px 150px 30px 150px ;
     display:grid;
     grid-template-columns: 1fr 1fr ;
-    gap: 2rem; 
+    gap: 4rem;
+    /* row-gap: 4rem;  */
      
  }
  .packages-container div{
@@ -241,6 +243,7 @@
       transition: 0.2s ease;
       /* background:  #d63c6ff6; */
 }
+
 
 .package1 span{
     background-color:transparent ;
@@ -295,15 +298,12 @@ margin-left: 67px;
       scale: 1rem;
       background:  #d63c6f;
       color: white;
-}
+          /* box-shadow: 0 8px 20px rgba(231, 84, 128, 0.3); */
 
-
-
-/* TOP ATTRACTIONS PAGE  */
-
+} 
 
 .top_attractions {
-    height: 800px ;
+    height: 1200px ;
     background-color: white;
     margin-top: 50px;
     padding-top: 40px;
@@ -385,7 +385,7 @@ margin-left: 67px;
 .footer {
     background-color: #d63c6f;
     height: 350px;
-    padding-top:45px ;
+    padding-top:35px ;
     
 }
 .footer-panel{
@@ -438,7 +438,7 @@ margin-left: 67px;
 }
 .footer-copyright{
     border-top: 0.5px solid rgba(255, 255, 255, 0.26);
-    padding: 30px 20px 0px 20px;
+    padding: 30px 20px 30px 20px;
     display: flex;
     justify-content:center ;
     
