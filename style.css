@@ -192,7 +192,7 @@
   }
 
  .section-packages{
-    height: 570px;
+    height: 1100px;
     width: 100%;
     background-color: #FFE8EE;
     padding :0px 32px;
@@ -290,4 +290,34 @@ margin-left: 110px;
       scale: 1rem;
       background:  #d63c6f;
       color: white;
+}
+
+
+/* TOP ATTRACTIONS PAGE  */
+
+
+.top_attractions {
+    height: 800px ;
+    background-color: white;
+    color: whi;
+    margin-top: 50px;
+ }
+
+
+.destinations-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+     
+}
+.destination{
+    /* align-content: center; */
+    /* display:inline-block; */
+    align-items: center;
+    height: 400px;
+}
+
+
+.destination img{
+    height: 200px;
 }
